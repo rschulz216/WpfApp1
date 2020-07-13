@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="525" />
+        </Grid.RowDefinitions>
+        <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75">Previous</Button>
+        <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">Next</Button>
+                <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
     </Grid>
 </Window>
